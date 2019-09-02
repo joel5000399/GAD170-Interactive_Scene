@@ -39,7 +39,7 @@ public class NerfGunItem : InteractiveItem
 
         if (NewDartRB != null)
         {
-            NewDartRB.AddRelativeForce(launchForce * Vector3.forward);
-        }  
+            NewDartRB.AddRelativeForce(Mathf.Pow(launchForce, 2) * Vector3.forward);            
+        }
     }
 }

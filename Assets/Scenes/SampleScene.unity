@@ -16428,7 +16428,6 @@ MonoBehaviour:
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_textAlignment: 514
-  m_isAlignmentEnumConverted: 1
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -16455,6 +16454,7 @@ MonoBehaviour:
   m_verticalMapping: 0
   m_uvLineOffset: 0
   m_geometrySortingOrder: 0
+  m_VertexBufferAutoSizeReduction: 1
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
@@ -16469,12 +16469,9 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
-  m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
@@ -31450,7 +31447,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13648
+  m_Name: pb_Mesh13600
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -37316,6 +37313,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 758912329732904974, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 99c1fbd8dd72d2a409dfb8ea6ea5337d, type: 3}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 171acdb98bc7c814f9b35945ad888778, type: 3}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 129179cdb92ca7648a3c33064836057e, type: 3}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: e1c4d074de5c9164e87f94c6624f4b90, type: 3}
+    - target: {fileID: 7352722953183618079, guid: 72e7f70b859192f4185dda6547ab91c4,
+        type: 3}
+      propertyPath: songs.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 77291d956ff12254e80cd8ff78ec5ba1, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72e7f70b859192f4185dda6547ab91c4, type: 3}
 --- !u!1 &1615689454
